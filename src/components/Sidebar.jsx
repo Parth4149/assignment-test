@@ -15,7 +15,7 @@ const Sidebar = ({ setMobileOpen }) => {
   const [selectedIndex, setSelectedIndex] = useState(1);
   return (
     <Box className="sidebar">
-      <Link to="/" className="logo_container">
+      <Link to="/assignment-test/" className="logo_container">
         <Typography
           sx={{ m: "1rem 0", p: "0 1rem" }}
           className="white"
