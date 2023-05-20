@@ -11,7 +11,7 @@ const App = () => {
       <CssBaseline />
       <Navbar theme={theme} />
       <Routes>
-        <Route path="/" element={<Montages theme={theme} />} />
+        <Route path="/assignment-test/" element={<Montages theme={theme} />} />
       </Routes>
     </main>
   );
